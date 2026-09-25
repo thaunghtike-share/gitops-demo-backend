@@ -1,0 +1,17 @@
+{
+  "name": "gitops-demo-be",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent stateless backend for a GitOps deployment demonstration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  }
+}
