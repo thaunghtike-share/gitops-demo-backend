@@ -2,7 +2,7 @@
 
 An independent, stateless Express service for Docker, Kubernetes, Helm, and
 ArgoCD labs. It has no database, authentication, persistent storage, external
-API, or connection to `gitops-demo-fe`.
+API, or connection to `gitops-demo-fe`
 
 The `main` branch returns `production`. Change that value to `dev` or `uat` in
 the corresponding branches when demonstrating environment promotion.
